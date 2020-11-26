@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/piotr/eclipse-workspacenowaIntellij/testng">
+        <classes>
+            <class name="testng.Sendit">
+                <methods>
+                    <include name="OpenBrowser"/>
+                </methods>
+            </class>
+            <class name="testng.carLoan">
+                <methods>
+                    <include name="carLoanLogginForm"/>
+                </methods>
+            </class>
+            <class name="testng.homeLoan">
+                <methods>
+                    <include name="homeLoanLogginForm"/>
+                    <include name="homeLoanRegisterForm"/>
+                    <include name="DataProviding"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
